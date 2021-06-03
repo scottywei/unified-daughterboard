@@ -1,0 +1,223 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 60B87620
+P 1650 2350
+F 0 "J1" H 1757 3217 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1757 3126 50  0000 C CNN
+F 2 "u1:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1800 2350 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1800 2350 50  0001 C CNN
+	1    1650 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:USBLC6-2P6 U1
+U 1 1 60B888DC
+P 5100 2500
+F 0 "U1" V 4850 2850 50  0000 L CNN
+F 1 "USBLC6-2P6" V 5350 2850 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 5100 2000 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 5300 2850 50  0001 C CNN
+	1    5100 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x06_MountingPin J2
+U 1 1 60B8E119
+P 8000 2450
+F 0 "J2" H 8088 2364 50  0000 L CNN
+F 1 "Conn_01x06_MountingPin" H 8088 2273 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal" H 8000 2450 50  0001 C CNN
+F 3 "~" H 8000 2450 50  0001 C CNN
+	1    8000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 60B8F456
+P 2500 1950
+F 0 "R1" V 2600 2050 50  0000 C CNN
+F 1 "5.1k" V 2600 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2500 1950 50  0001 C CNN
+F 3 "~" H 2500 1950 50  0001 C CNN
+	1    2500 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 60B8FA8F
+P 2500 2050
+F 0 "R2" V 2600 1950 50  0000 C CNN
+F 1 "5.1k" V 2600 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2500 2050 50  0001 C CNN
+F 3 "~" H 2500 2050 50  0001 C CNN
+	1    2500 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 60B906FE
+P 1350 3500
+F 0 "#PWR04" H 1350 3250 50  0001 C CNN
+F 1 "GND" H 1355 3327 50  0000 C CNN
+F 2 "" H 1350 3500 50  0001 C CNN
+F 3 "" H 1350 3500 50  0001 C CNN
+	1    1350 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 3250 1350 3500
+Wire Wire Line
+	1350 3250 1650 3250
+Connection ~ 1350 3250
+Wire Wire Line
+	2250 1950 2400 1950
+Wire Wire Line
+	2250 2050 2400 2050
+Wire Wire Line
+	2600 1950 2750 1950
+Wire Wire Line
+	2750 2050 2600 2050
+Wire Wire Line
+	2250 2450 2250 2550
+Wire Wire Line
+	2250 2350 2250 2250
+Wire Wire Line
+	2750 1950 2750 2000
+$Comp
+L power:GND #PWR01
+U 1 1 60B998D2
+P 3000 2000
+F 0 "#PWR01" H 3000 1750 50  0001 C CNN
+F 1 "GND" V 3005 1872 50  0000 R CNN
+F 2 "" H 3000 2000 50  0001 C CNN
+F 3 "" H 3000 2000 50  0001 C CNN
+	1    3000 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 2000 2750 2000
+Connection ~ 2750 2000
+Wire Wire Line
+	2750 2000 2750 2050
+Text GLabel 2400 2350 2    50   Input ~ 10
+DN
+Text GLabel 2400 2450 2    50   Input ~ 10
+DP
+Wire Wire Line
+	2250 2350 2400 2350
+Connection ~ 2250 2350
+Wire Wire Line
+	2250 2450 2400 2450
+Connection ~ 2250 2450
+NoConn ~ 2250 2850
+NoConn ~ 2250 2950
+Text GLabel 2400 1750 2    50   Input ~ 10
+UVCC
+Wire Wire Line
+	2250 1750 2400 1750
+$Comp
+L power:GND #PWR02
+U 1 1 60B9ABE7
+P 4400 2500
+F 0 "#PWR02" H 4400 2250 50  0001 C CNN
+F 1 "GND" V 4405 2372 50  0000 R CNN
+F 2 "" H 4400 2500 50  0001 C CNN
+F 3 "" H 4400 2500 50  0001 C CNN
+	1    4400 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 2500 4700 2500
+Text GLabel 5750 2500 2    50   Input ~ 10
+UVCC
+Wire Wire Line
+	5500 2500 5750 2500
+Text GLabel 5000 1900 1    50   Input ~ 10
+DN
+Text GLabel 5200 1900 1    50   Input ~ 10
+D-
+Wire Wire Line
+	5000 1900 5000 2100
+Wire Wire Line
+	5200 1900 5200 2100
+Text GLabel 5000 3200 3    50   Input ~ 10
+DP
+Wire Wire Line
+	5000 3200 5000 2900
+Text GLabel 5200 3200 3    50   Input ~ 10
+D+
+Wire Wire Line
+	5200 3200 5200 2900
+Text GLabel 7650 2350 0    50   Input ~ 10
+D-
+Text GLabel 7650 2450 0    50   Input ~ 10
+D+
+Text GLabel 7700 2250 0    50   Input ~ 10
+UVCC
+$Comp
+L power:GND #PWR03
+U 1 1 60B9C837
+P 7500 2550
+F 0 "#PWR03" H 7500 2300 50  0001 C CNN
+F 1 "GND" V 7505 2422 50  0000 R CNN
+F 2 "" H 7500 2550 50  0001 C CNN
+F 3 "" H 7500 2550 50  0001 C CNN
+	1    7500 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 2550 7800 2550
+Wire Wire Line
+	7650 2450 7800 2450
+Wire Wire Line
+	7650 2350 7800 2350
+Wire Wire Line
+	7700 2250 7800 2250
+$Comp
+L Switch:SW_Push SW1
+U 1 1 60B9E26F
+P 7100 2850
+F 0 "SW1" V 7146 2802 50  0000 R CNN
+F 1 "SW_Push" V 7055 2802 50  0000 R CNN
+F 2 "u1:ALPS_SKSC" H 7100 3050 50  0001 C CNN
+F 3 "~" H 7100 3050 50  0001 C CNN
+	1    7100 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 2650 7800 2650
+Wire Wire Line
+	7100 3050 7550 3050
+Wire Wire Line
+	7550 3050 7550 2750
+Wire Wire Line
+	7550 2750 7800 2750
+$Comp
+L power:GND #PWR?
+U 1 1 60BA54DC
+P 8000 3100
+F 0 "#PWR?" H 8000 2850 50  0001 C CNN
+F 1 "GND" V 8005 2972 50  0000 R CNN
+F 2 "" H 8000 3100 50  0001 C CNN
+F 3 "" H 8000 3100 50  0001 C CNN
+	1    8000 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2950 8000 3100
+$EndSCHEMATC
