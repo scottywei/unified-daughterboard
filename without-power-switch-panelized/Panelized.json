@@ -1,0 +1,38 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "5",
+        "cols": "5"
+    },
+    "tabs": {
+        "type": "fixed",
+        "hwidth": "4mm",
+        "vcount": "0"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "offset": "-0.1mm",
+        "prolong": "0.5mm"
+    },
+    "framing": {
+        "type": "railslr",
+        "chamfer": "1mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm",
+        "size": "2.1mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "2.5mm",
+        "voffset": "7.5mm",
+        "opening": "2.54mm"
+    },
+    "post": {
+        "millradius": "1mm",
+        "refillzones": "True"
+    }
+}
