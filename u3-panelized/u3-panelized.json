@@ -1,0 +1,69 @@
+{
+    "layout": {
+        "alternation": "rows",
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "hbackbone": "3mm",
+        "rows": "6",
+        "cols": "3",
+        "vbonecut": "False",
+        "hbonecut": "False"
+    },
+    "tabs": {
+        "type": "annotation"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "drill": "0.6mm",
+        "prolong": "0.4mm"
+    },
+    "framing": {
+        "type": "frame",
+        "cuts": "none"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm"
+    },
+    "fiducials": {
+        "type": "4fid",
+        "hoffset": "7.5mm",
+        "voffset": "2.5mm",
+        "opening": "2.54mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "2.5mm",
+        "text": "U3 DAUGHTERBOARD"
+    },
+    "text2": {
+        "type": "simple",
+        "hoffset": "2.5mm",
+        "orientation": "90deg",
+        "text": "BASIC I/O INSTRUMENTS",
+        "anchor": "ml"
+    },
+    "text3": {
+        "type": "simple",
+        "hoffset": "-2.5mm",
+        "orientation": "270deg",
+        "text": "BASIC I/O INSTRUMENTS",
+        "anchor": "mr"
+    },
+    "text4": {
+        "type": "simple",
+        "voffset": "-2.5mm",
+        "orientation": "180deg",
+        "text": "U3 DAUGHTERBOARD",
+        "anchor": "mb"
+    },
+    "page": {
+        "type": "A",
+        "anchor": "tl",
+        "posx": "20mm"
+    },
+    "post": {
+        "millradius": "1mm"
+    }
+}
