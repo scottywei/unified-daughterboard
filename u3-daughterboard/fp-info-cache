@@ -1,4 +1,4 @@
-22147946880434971
+22137069212841368
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -1688,6 +1688,13 @@ XIA_Logo_Outline
 0
 BIOI
 XIA_Logo_Tone1
+
+
+0
+0
+0
+BIOI
+mini_logo
 
 
 0
@@ -61375,34 +61382,6 @@ solder jumper open
 0
 5
 3
-KiKit
-Board
-Mark board for extraction
-
-0
-0
-0
-KiKit
-Fiducial
-Circular Fiducial
-fiducial
-0
-1
-0
-KiKit
-NPTH
-
-
-0
-0
-0
-KiKit
-Tab
-A symbol representing annotation for tab placement
-
-0
-0
-0
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
