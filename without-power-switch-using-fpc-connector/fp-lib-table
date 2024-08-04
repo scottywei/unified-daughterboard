@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "u1")(type "KiCad")(uri "${KIPRJMOD}/../../bioi-keyboard-kicad-libraries/footprints/")(options "")(descr ""))
+)
