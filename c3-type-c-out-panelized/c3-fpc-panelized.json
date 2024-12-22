@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "6mm",
+        "rows": "4",
+        "cols": "5"
+    },
+    "tabs": {
+        "type": "fixed",
+        "hwidth": "4mm",
+        "vcount": "0",
+        "patchcorners": "False"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "offset": "-0.1mm"
+    },
+    "framing": {
+        "type": "railslr"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm",
+        "size": "2.1mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "2.5mm",
+        "voffset": "7.5mm",
+        "opening": "2.54mm"
+    },
+    "post": {
+        "refillzones": "True",
+        "edgewidth": "0mm"
+    }
+}
